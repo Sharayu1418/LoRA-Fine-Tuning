@@ -1,15 +1,9 @@
 # Parameter-Efficient Fine-Tuning with Low-Rank Adaptation for Text Classification
 
-## Team Information
-**Team Name:** Accio Predictions  
-**Team Members:**
-* **Raunak Choudhary** (raunak.choudhary@nyu.edu, NetID: rc5553)
-* **Sharayu Rasal** (srr10019@nyu.edu, NetID: srr10019)
 
 ## Project Overview
 
-This repository contains our implementation for efficient fine-tuning of RoBERTa using Low-Rank Adaptation (LoRA) for the AG News text classification task. The project was developed as part of the Deep Learning course (Spring 2025).
-
+This repository contains our implementation for efficient fine-tuning of RoBERTa using Low-Rank Adaptation (LoRA) for the AG News text classification task.
 ### Key Features
 
 - Parameter-efficient fine-tuning using LoRA adapters
@@ -53,8 +47,8 @@ We fine-tuned the RoBERTa-base model using LoRA with the following configuration
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/username/RoBERTa-LoRA-News-Classification.git
-cd RoBERTa-LoRA-News-Classification
+git clone https://github.com/Sharayu1418/LoRA-Fine-Tuning.git
+cd LoRA-Fine-Tuning
 ```
 
 2. Install dependencies:
@@ -64,7 +58,7 @@ pip install -r requirements.txt
 
 3. Run the notebook or training script:
 ```bash
-jupyter notebook notebooks/LoRA_fine_tuning.ipynb
+jupyter notebook notebooks/LoRA-Fine-Tuning.ipynb
 ```
 
 ## Citation
